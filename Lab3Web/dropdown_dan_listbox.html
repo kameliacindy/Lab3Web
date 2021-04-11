@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lanjutan</title>
+</head>
+<body>
+    <header>
+        <h3>Membuat Form Dropdown Menu dan Listbox dengan Atribut Multiple Selection</h3>
+    </header>
+
+    <style>
+        form p > label {
+            display: inline-block;
+            width: 150px;
+        }
+        form input[type="text"], form textarea {
+            border: 1px solid #1379a8;
+            width: 200px;
+            height: 20px;
+        }
+        form input[type="submit"] {
+            border: 1px solid #2670dd;
+            background-color: #2670dd;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+        }
+       </style>
+
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend><b>Formulir Pendaftaran</b></legend>
+            <p>
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" name="nama">
+            </p>
+            <p>
+                <label for="ttl">Tempat, tanggal lahir</label>
+                <input type="text" id="ttl" name="ttl">
+            </p>
+            <p>
+                <label>Jenis Kelamin</label>
+                <input id="jk_l" type="radio" name="kelamin" value="L" />
+                <label for="jk_l">Laki-laki</label>
+                <input id="jk_p" type="radio" name="kelamin" value="P" />
+                <label for="jk_p">Perempuan</label>
+            </p>
+
+            <!-- menampilkan dropdown menu -->
+            <p>
+                <label for="lulusan">Lulusan Terakhir</label>
+                <select id="lulusan" name="lulusan">
+                    <option value="SMA">SMA/SMK</option>
+                    <option value="D3">D3</option>
+                    <option value="S1">S1</option>
+                    <option value="S2">S2</option>
+                </select>
+            </p>
+
+            <!-- menampilkan listbox dengan multiple selection -->
+            <p>
+                <label for="agama">Agama</label>
+                <select id="agama" name="agama" size="3" multiple="multiple">
+                    <option value="islam">Islam</option>
+                    <option value="kristen">Kristen</option>
+                    <option value="katholik">Katholik</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="budha">Budha</option>
+                </select>
+            </p>
+            <p><input type="submit" value="Login"></p>
+        </fieldset>
+    </form>
+</body>
+</html>
