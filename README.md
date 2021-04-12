@@ -170,6 +170,56 @@ Tag ini memiliki beberapa atribut yang harus diberikan, seperti:
 
 ![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/ss_form_css.PNG)
 
+## Membuat Form dengan Menampilkan *Dropdown* menu dan *Listbox* dengan *multiple selection*
+Tag `<select>` di dalam HTML digunakan untuk membuat **objek form** yang berupa list pilihan yang dapat dipilih oleh user. Kita juga membutuhkan tag `<option>` sebagai “_isi_” dari tag `<select>`.
+Atribut-atribut yang digunakan pada tag `<select>` adalah seperti di bawah ini:
+
+ - **Atribut name** untuk digunakan sebagai identitas dari tag select tersebut. Identitas ini diperlukan pada saat pemrosesan di sisi **server** (misalnya menggunakan **PHP**).
+ - **Atribut id** dibutuhkan untuk pemograman HTML menggunakan **Javascript** dan **CSS**.
+ - **Atribut value** digunakan di dalam tag `option`. Nilai dari atribut inilah yang akan dikirimkan kedalam web server, sehingga disarankan menggunakan nilai yang mencerminkan pilihan user.
+ - **Atribut size**  digunakan untuk menentukan besar dari tampilan  tag `select`. Jika tidak ditulis,  tag `select`  memiliki nilai  _default_  _size_=”1″, sehingga hanya 1 pilihan yang “_terlihat_” ketika user memilih pilihan yang ada.
+Namun jika anda menambahkan atribut  **size=”3″,**  maka pada saat form ditampilkan,  tag `select`  akan ditampilkan sebanyak 3 baris. **Atribut size** biasanya di kombinasikan dengan **atribut multiple**.
+ - **Atribut multiple** digunakan untuk memungkinkan user untuk dapat memilih lebih dari 1 nilai. Namun untuk dapat memilih lebih dari 1 nilai, user harus menekan tombol **ctrl** pada **keyboard**.
+
+Berikut ini form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan *multiple selection*.
+
+![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/ss_dropdown_listbox.PNG)
+
+### 1. *Dropdown* menu
+Select Box digunakan untuk membuat inputan berupa pilihan dengan tampilan dropdown, secara default tag ini mengharuskan user untuk memilih 1 pilihan yang ada.
+**Contoh:**
+
+![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/kode_dropdown.PNG)
+
+Kode di atas menggunakan tag `<select>` dengan atribut id + name + value.
+
+**Dan hasilnya seperti berikut:**
+
+![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/dropdown.png)
+
+Terlihat ketika diklik akan ada 4 pilihan, yaitu SMA/SMK, D3, S1, dan S2. Menu pilihan tersebut dinamakan ***dropdown*** menu.
+
+### 2. *Listbox* dengan *Multiple Selection*
+Perhatikan contoh di bawah ini.
+
+![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/kode_listbox.PNG)
+
+Kode di atas menggunakan tag `<select>` dengan atribut id + name + size + multiple + value.
+
+**Dan hasilnya seperti di bawah ini:**
+
+![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/listbox.png)
+
+Terlihat bahwa yang tampil adalah 3 pilihan karena kita menambahkan **atribute size=’3′**, selain itu kita dapat memilih lebih dari 1 karena menambahkan **atribut multiple**.
+
+Terimakasih, semoga bermanfaat...
+
+Nama: Kamelia Cindy Astuti
+
+NIM: 311910104
+
+Kelas: TI. 19. A. 1
+
 
 
 
