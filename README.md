@@ -1,5 +1,5 @@
-## Praktikum 3 : HTML Lanjutan
-### A. Membuat List
+# Praktikum 3 : HTML Lanjutan
+## A. Membuat List
 
 ### **1. Ordered List**
  
