@@ -24,7 +24,7 @@ Kemudian membuat kode _ordered list_ seperti berikut.
 List diatas diurutkan secara default yaitu berdasarkan angka dari `1` sampai  `3`.
 
 _Ordered List_ dapat dikonfigurasi lebih lanjut menggunakan atribut `type` dan `start`. Terdapat lima macam `type`:
- -   `1`tipe default untuk angka `1`, `2`, `3`, dan seterusnya;
+ -   `1`  tipe default untuk angka `1`, `2`, `3`, dan seterusnya;
  -   `a`  untuk alfabet  `a`,  `b`,  `c`, dan seterusnya;
  -   `A`  untuk alfabet  `A`,  `B`,  `C`, dan seterusnya;
  -   `i`  untuk angka romawi `i`,  `ii`,  `iii`, dan seterusnya;
@@ -149,8 +149,8 @@ Tag ini memiliki beberapa atribut yang harus diberikan, seperti:
 5. Tag `input` merupakan tag paling banyak digunakan di dalam **form** dan memiliki banyak bentuk berdasarkan atribut type di bawah ini:
 
  -   `<input type="text">` adalah _textbox_ inputan biasa yang menerima input berupa text, contohnya digunakan untuk inputan _nama_, _username_, dll.
- - `<input type="password">`  tampilannya sama dengan, namun teks yang diinput tidak akan terlihat, akan berupa bintang atau bulatan. Biasanya hanya digunakan untuk inputan yang sensitif seperti _password_.
- - `<input type="checkbox">` adalah inputan berupa _checkbox_ yang dapat diceklist atau di centang oleh user. User dapat memilih atau tidak memilih checkbox ini. Contoh inputan **checkbox** berupa hobi, yang oleh user dapat dipilih beberapa hobi.
+ - `<input type="password">`  tampilannya sama dengan _textbox_, namun teks yang diinput tidak akan terlihat, akan berupa bintang atau bulatan. Biasanya hanya digunakan untuk inputan yang sensitif seperti _password_.
+ - `<input type="checkbox">` adalah inputan berupa _checkbox_ yang dapat diceklist atau di centang oleh user. User dapat memilih atau tidak memilih checkbox ini. Contoh inputan **checkbox** berupa hobi.
  - `<input type="radio">` mirip dengan **checkbox**, namun user hanya bisa memilih satu diantara pilihan group radio. Contoh inputan type radio adalah jenis kelamin.
  - `<input type="submit">` adalah tombol untuk memproses form. Biasanya diletakkan pada baris terakhir dari form. **Atribut value** jika diisi akan membuat text tombol submit berubah sesuai inputan nilai **value**.
  
@@ -170,11 +170,11 @@ Tag ini memiliki beberapa atribut yang harus diberikan, seperti:
 
 ![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/ss_form_css.PNG)
 
-## Membuat Form dengan Menampilkan *Dropdown* menu dan *Listbox* dengan *multiple selection*
+## Membuat Form yang Menampilkan *Dropdown* menu dan *Listbox* dengan *Multiple Selection*
 Tag `<select>` di dalam HTML digunakan untuk membuat **objek form** yang berupa list pilihan yang dapat dipilih oleh user. Kita juga membutuhkan tag `<option>` sebagai “_isi_” dari tag `<select>`.
 Atribut-atribut yang digunakan pada tag `<select>` adalah seperti di bawah ini:
 
- - **Atribut name** untuk digunakan sebagai identitas dari tag select tersebut. Identitas ini diperlukan pada saat pemrosesan di sisi **server** (misalnya menggunakan **PHP**).
+ - **Atribut name** untuk digunakan sebagai identitas dari tag `select` tersebut. Identitas ini diperlukan pada saat pemrosesan di sisi **server** (misalnya menggunakan **PHP**).
  - **Atribut id** dibutuhkan untuk pemograman HTML menggunakan **Javascript** dan **CSS**.
  - **Atribut value** digunakan di dalam tag `option`. Nilai dari atribut inilah yang akan dikirimkan kedalam web server, sehingga disarankan menggunakan nilai yang mencerminkan pilihan user.
  - **Atribut size**  digunakan untuk menentukan besar dari tampilan  tag `select`. Jika tidak ditulis,  tag `select`  memiliki nilai  _default_  _size_=”1″, sehingga hanya 1 pilihan yang “_terlihat_” ketika user memilih pilihan yang ada.
@@ -187,6 +187,7 @@ Berikut ini form yang menampilkan ***dropdown*** menu dan ***listbox*** dengan *
 
 ### 1. *Dropdown* menu
 Select Box digunakan untuk membuat inputan berupa pilihan dengan tampilan dropdown, secara default tag ini mengharuskan user untuk memilih 1 pilihan yang ada.
+
 **Contoh:**
 
 ![enter image description here](https://github.com/kameliacindy/Lab3Web/blob/main/img/kode_dropdown.PNG)
