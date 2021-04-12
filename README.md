@@ -3,7 +3,7 @@
 
  **1. Ordered List**
  
- **_Ordered list_** merupakan list yang terurut dengan menggunakan penomoran angka, secara default. 
+ _Ordered list_ merupakan list yang terurut dengan menggunakan penomoran angka, secara default. 
  
  _Ordered list_ dibuat dengan tag `<ol>`. Lalu di dalamnya diisi dengan item-item yang akan dimasukkan ke dalam list. Item dibuat dengan tag `<li>`  _(list item)_.
  
