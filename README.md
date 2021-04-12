@@ -1,9 +1,9 @@
 ## Praktikum 3 : HTML Lanjutan
 ### A. Membuat List
 
- **1. Ordered List**
+### **1. Ordered List**
  
- _Ordered list_ merupakan list yang terurut dengan menggunakan penomoran angka, secara default. 
+ **_Ordered list_** merupakan list yang terurut dengan menggunakan penomoran angka, secara default. 
  
  _Ordered list_ dibuat dengan tag `<ol>`. Lalu di dalamnya diisi dengan item-item yang akan dimasukkan ke dalam list. Item dibuat dengan tag `<li>`  _(list item)_.
  
@@ -30,7 +30,7 @@ _Ordered List_ dapat dikonfigurasi lebih lanjut menggunakan atribut `type` dan `
  -   `i`  untuk angka romawi `i`,  `ii`,  `iii`, dan seterusnya;
  -   `I`  untuk angka romawi `I`,  `II`,  `III`, dan seterusnya.
  
- **2. Unordered List**
+ ### **2. Unordered List**
  
  **_Unordered list_**  adalah list yang tak terurut yang menggunakan simbol-simbol pada item-nya.  _Unordered list_  dibuat dengan tag  `<ul>`  dan untuk item-nya dibuat juga dengan tag  `<li>`.
  
@@ -52,7 +52,7 @@ Kita juga dapat menggantinya dengan atribut  `type`. Berikut ini nilai yang bisa
 -   `none`  tidak memakai simbol;
 -   `circle`  untuk simbol lingkaran.
 
-**3. Description List**
+### **3. Description List**
 
 **_Description List_**  adalah list yang berisi deksripsi atau penjelasan dari sesuatu.
 
